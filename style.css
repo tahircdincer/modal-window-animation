@@ -92,3 +92,16 @@ h2 {
 /* 
 Width - Height 100% - So e.target === modalWindow - in JavaScript while adding an Event Listener to the ' most ' global object?
  */
+
+/* Animation for Modal Window */
+
+@keyframes animatemodal {
+  from {
+    top: -10rem;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
